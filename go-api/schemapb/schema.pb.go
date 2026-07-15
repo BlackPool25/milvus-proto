@@ -46,6 +46,7 @@ const (
 	DataType_Date              DataType = 28
 	DataType_Time              DataType = 29
 	DataType_Decimal           DataType = 30
+	DataType_UUID              DataType = 31 // Universally Unique Identifier, stored as 16 bytes
 	DataType_BinaryVector      DataType = 100
 	DataType_FloatVector       DataType = 101
 	DataType_Float16Vector     DataType = 102
@@ -79,6 +80,7 @@ var (
 		28:  "Date",
 		29:  "Time",
 		30:  "Decimal",
+		31:  "UUID",
 		100: "BinaryVector",
 		101: "FloatVector",
 		102: "Float16Vector",
@@ -109,6 +111,7 @@ var (
 		"Date":              28,
 		"Time":              29,
 		"Decimal":           30,
+		"UUID":              31,
 		"BinaryVector":      100,
 		"FloatVector":       101,
 		"Float16Vector":     102,

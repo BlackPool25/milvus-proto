@@ -38,6 +38,7 @@ enum DataType {
   Date = 28;
   Time = 29;
   Decimal = 30;
+  UUID = 31; // Universally Unique Identifier, stored as 16 bytes
 
   BinaryVector = 100;
   FloatVector = 101;
